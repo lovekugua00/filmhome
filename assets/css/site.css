@@ -1,0 +1,108 @@
+body{
+    background-color: #f6f6f6;
+}
+.table{
+    background-color: #FFF;
+    margin-top: 20px;
+    border:1px solid #DDD;
+}
+.table thead{
+    background-color: #563D7C;
+    color: #FFF;
+    font-weight: bold;
+}
+.table tr{
+    -moz-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.table tbody tr:hover{
+    background-color: #f9f9f9;
+}
+.film-nav{
+    background-color: #563d7c;
+}
+.film-nav .navbar-brand{
+    color: #FFF;
+}
+.film-nav .navbar-nav  li a {
+    color: #cdbfe3;
+}
+.film-nav .navbar-nav  a:hover{
+    color: #FFF;
+}
+.film-nav .navbar-nav li.active a{
+    color: #fff;
+    background-color:#463265;
+}
+#film-main-container{
+    margin-top: 50px;
+}
+.film-block{
+    background-color: #fff;
+    border:1px solid #ddd;
+    border-top: none;
+}
+.film-block dt{
+    position: relative;
+    padding: 5px 10px;
+    border-top:2px solid #563D7C;
+    border-bottom:1px solid #ddd;
+    color: #666;
+    background-color:rgb(237, 237, 237);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(254, 254, 254)), to(rgb(237, 237, 237)));
+    background-image: -webkit-linear-gradient(top, rgb(254, 254, 254), rgb(237, 237, 237));
+    background-image: -moz-linear-gradient(top, rgb(254, 254, 254), rgb(237, 237, 237));
+    background-image: -o-linear-gradient(top, rgb(254, 254, 254), rgb(237, 237, 237));
+    background-image: -ms-linear-gradient(top, rgb(254, 254, 254), rgb(237, 237, 237));
+    background-image: linear-gradient(top, rgb(254, 254, 254), rgb(237, 237, 237));
+}
+.film-block dt a{
+    position: absolute;
+    font-size: 12px;
+    top: 6px;
+    right: 8px;
+    font-weight: normal;
+}
+.film-block dd{
+    margin: 5px 10px;
+    border-bottom: 1px dotted #eee;
+    padding: 5px 0;
+    font-weight: 300;
+}
+.film-block dd .film-size{
+    margin-left:15px;
+}
+.film-block dd .film-date{
+    float: right;
+}
+.film-content {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+.film-content img{
+    max-width: 90%;
+    _width:expression(this.width>=600?"600px" : this.width);
+}
+.film-content img.large-image{
+    border:10px solid #7850B4;
+    border-radius:5px;
+}
+.action-group{
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #f9f9f9;
+}
+.footer{
+    background-color: #563d7c;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+}
