@@ -30,6 +30,7 @@ body{
     color: #cdbfe3;
 }
 .film-nav .navbar-nav  a:hover{
+    background-color: #563D7C;
     color: #FFF;
 }
 .film-nav .navbar-nav li.active a{
@@ -37,7 +38,7 @@ body{
     background-color:#463265;
 }
 #film-main-container{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .film-block{
     background-color: #fff;
@@ -71,11 +72,20 @@ body{
     padding: 5px 0;
     font-weight: 300;
 }
-.film-block dd .film-size{
-    margin-left:15px;
+.film-block dd a{
+    display: inline-block;
+    width: 75%;
+    overflow: hidden;
+    height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 22px;
 }
-.film-block dd .film-date{
+.film-block dd .film-date,.film-block dd .film-size{
     float: right;
+}
+.film-block dd .film-size{
+    margin-right: 20px;
 }
 .film-content {
     display: block;
