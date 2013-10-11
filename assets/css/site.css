@@ -22,6 +22,7 @@ body{
 }
 .film-nav{
     background-color: #563d7c;
+    border-bottom:1px solid #463265;
 }
 .film-nav .navbar-brand{
     color: #FFF;
@@ -37,8 +38,26 @@ body{
     color: #fff;
     background-color:#463265;
 }
+#film-carousel{
+    border-top: 1px solid #674F89;
+    background-color: #573D7D;
+    margin-top: 51px;
+    padding: 20px 0 0;
+    box-shadow: 0px 1px 5px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 1px 5px rgba(0,0,0,.8);
+    -ms-box-shadow: 0px 1px 5px rgba(0,0,0,.8);
+}
+#film-carousel .carousel-inner img{
+    width: 1140px;
+    height: 312px;
+}
+#film-carousel .film-slogan,#film-carousel .film-slogan a{
+    text-align: center;
+    color: #FFF;
+}
 #film-main-container{
-    margin-top: 60px;
+
 }
 .film-block{
     background-color: #fff;
@@ -108,6 +127,9 @@ body{
     border: 1px solid #ddd;
     padding: 20px;
     background: #f9f9f9;
+}
+.action-group a{
+    margin-left: 15px;
 }
 .footer{
     background-color: #563d7c;
