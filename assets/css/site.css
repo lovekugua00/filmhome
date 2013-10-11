@@ -1,5 +1,6 @@
 body{
     background-color: #f6f6f6;
+    padding-top: 51px;
 }
 .table{
     background-color: #FFF;
@@ -41,7 +42,6 @@ body{
 #film-carousel{
     border-top: 1px solid #674F89;
     background-color: #573D7D;
-    margin-top: 51px;
     padding: 20px 0 0;
     box-shadow: 0px 1px 5px rgba(0,0,0,.8);
     -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.8);
