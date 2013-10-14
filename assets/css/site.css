@@ -2,6 +2,9 @@ body{
     background-color: #f6f6f6;
     padding-top: 51px;
 }
+a{
+    color: #333;
+}
 .table{
     background-color: #FFF;
     margin-top: 20px;
@@ -24,6 +27,10 @@ body{
 .film-nav{
     background-color: #563d7c;
     border-bottom:1px solid #463265;
+    box-shadow: 0 1px 0px #674F89;
+    -webkit-box-shadow: 0 1px 0px #674F89;
+    -moz-box-shadow: 0 1px 0px #674F89;
+    -ms-box-shadow: 0 1px 0px #674F89;
 }
 .film-nav .navbar-brand{
     color: #FFF;
@@ -91,7 +98,7 @@ body{
     padding: 5px 0;
     font-weight: 300;
 }
-.film-block dd a{
+.film-block dd a.film-title{
     display: inline-block;
     width: 75%;
     overflow: hidden;
@@ -106,6 +113,30 @@ body{
 .film-block dd .film-size{
     margin-right: 20px;
 }
+.film-block .film-grade{
+    float: left;
+    height: 100%;
+    line-height: 1.5em;
+    width: 180px;
+    overflow: hidden;
+}
+.film-block .film-grade em{
+    font-size: 2em;
+    padding-right: 0.2em;
+    color: red;
+}
+.film-block .film-grade a{
+    color: #666;
+}
+.film-block .film-thumb{
+    display: block;
+    height:auto;
+}
+.film-block .film-thumb img{
+    width: 60px;
+    height: 80px;
+}
+/*      内容页     */
 .film-content {
     display: block;
     background-color: #fff;
