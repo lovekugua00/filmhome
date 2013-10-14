@@ -115,7 +115,7 @@ a{
 }
 .film-block .film-grade{
     float: left;
-    height: 100%;
+    height: 70px;
     line-height: 1.5em;
     width: 180px;
     overflow: hidden;
