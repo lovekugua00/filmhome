@@ -46,6 +46,14 @@ a{
     color: #fff;
     background-color:#463265;
 }
+.film-search-box{
+    float: right;
+    width: 40%;
+    padding-top:8px;
+}
+.film-search-box .input-group-btn .btn{
+    font-weight: bold;
+}
 #film-carousel{
     border-top: 1px solid #674F89;
     background-color: #573D7D;
