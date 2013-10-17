@@ -54,6 +54,20 @@ a{
 .film-search-box .input-group-btn .btn{
     font-weight: bold;
 }
+.search-result-box{
+    background-color: #FFF;
+    padding: 20px;
+}
+.search-result-box dt{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+}
+.search-result-box dd{
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #eee;
+    padding-left: 20px;
+}
 #film-carousel{
     border-top: 1px solid #674F89;
     background-color: #573D7D;
